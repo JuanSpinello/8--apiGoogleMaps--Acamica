@@ -122,6 +122,8 @@ direccionesModulo = (function () {
     comoIr = google.maps.TravelMode.WALKING
   } else {
     comoIr = google.maps.TravelMode.TRANSIT
+  } else {
+    comoIr = google.maps.TravelMode.BYCYCLING
   }
 
   var request = {
