@@ -120,10 +120,10 @@ direccionesModulo = (function () {
     comoIr = google.maps.TravelMode.DRIVING
   } else if(comoIr === 'Caminando') {
     comoIr = google.maps.TravelMode.WALKING
+  } else if(comoIr === 'Bicicleta') {
+    comoIr = google.maps.TravelMode.BYCYCLING
   } else {
     comoIr = google.maps.TravelMode.TRANSIT
-  } else {
-    comoIr = google.maps.TravelMode.BYCYCLING
   }
 
   var request = {
